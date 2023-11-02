@@ -1,0 +1,251 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>
+            Home Page
+        </title>
+    </head>
+    <body>
+
+        <div class="main_nav">
+            <div class="nav_name">
+                <span class="nav_name_fl">M</span><span>ulti</span>
+            </div>
+
+            <div class="nav_bar">
+                <span> HOME</span>
+                <span>SERVICES</span>
+                <span>BLOG</span>
+                <span>PORTFOLIO</span>
+                <span>CONTACT</span>
+            </div>
+        </div>
+
+
+        <div class="slideshow-container">
+            <div class="myslide">
+                <img src="slider-1.jpg" >
+            </div>
+            <div class="myslide fade">
+                <img src="slider-2.jpg" >
+            </div>
+             <div class="myslide fade">
+                <img src="slider-3.jpg" >
+            </div>
+
+            <a class="prev" onclick="plusslides(-1)" ><img src="btnPrevious.png"></a>
+            <a class="next" onclick="plusslides(1)" ><img src="btnNext.png"></a>
+        </div>
+
+        <div class="Main_dot">
+            <span class="dot" onclick="currentslide(1)"></span>
+            <span class="dot" onclick="currentslide(2)"></span>
+            <span class="dot" onclick="currentslide(3)"></span>
+            <script>
+                let slideindex= 1;
+                showslides(slideindex);
+
+                function plusslides(n){
+                    showslides(slideindex+=n);
+                }
+
+                function currentslide(n){
+                    showslides(slideindex=n);
+                }
+
+                function showslides(n){
+                    let i;
+                    let slides=document.getElementsByClassName("myslide");
+
+                    let dots=document.getElementsByClassName("dot");
+
+                    if(n>slides.length){
+                        slideindex = 1;
+                    }
+
+                    if(n<1){
+                        slideindex=slides.length;
+
+                    }
+
+                    for(i=0;i<slides.length;i++){
+                        slides[i].style.display="none";
+                    }
+                    for(i=0;i<dots.length;i++){
+                        dots[i].className=dots[i].className.replace(" active","");
+
+                    }
+
+                    slides[slideindex-1].style.display="block";
+                    dots[slideindex-1].className+=" active";
+
+                }
+            </script>
+        </div>
+
+        <div align="center" class="t1">
+            Providing Our Clients
+        </div>
+        <div align="center" class="t2">
+            Best & Creative Solution
+        </div>
+
+        <img src="1.png" class="img1">
+        <img src="2.png" class="img2">
+        <img src="3.png" class="img3">
+        <img src="4.png" class="img4">
+        <div class="main_second">
+          
+           
+            <div>
+                
+                CREATIVE SOLUTION
+            </div>  
+            <div>
+                CREATIVE SOLUTION
+            </div>  
+            <div>
+                CREATIVE SOLUTION
+            </div>  
+            <div>
+                CREATIVE SOLUTION
+            </div>            
+        </div>
+
+        <div align="center" class="t3">
+           Main Feature
+        </div>
+        <div align="center" class="t4">
+            Bras urna fells accumsan at ultra cesid posuere masa socis nautoque
+        </div>
+        <div align="center" class="t5">
+           penat bus maecenas ultrices sed ipsum lorem dolor sit amet sed ipsum consecteture .
+        </div>
+
+
+        <div class="pic1">
+            <div class="pic11"><img src="6.jpg"></div>
+            <div class="pic12"><img src="5.jpg"></div>
+        </div>
+        <img src="5.png" class="img5">
+        <img src="6.png" class="img6">
+        <img src="3.png" class="img7">
+
+        <div class="main_second_2">
+            <div>
+                <h3>SEO Optimized</h3>
+                <p>Cras urna feils accumsan at ultriceside posuere masa um sicisd natoque penatibus magnised lorem ipsum dolor sit ame onsectea dipe</p>
+            </div>  
+            <div>
+                <h3>Easy to Install</h3>
+                <p>Cras urna feils accumsan at ultriceside posuere masa um sicisd natoque penatibus magnised lorem ipsum dolor sit ame onsectea dipe</p>
+            
+            </div>  
+            <div>
+                <h3>Unlimited Possibilities</h3>
+                <p>Cras urna feils accumsan at ultriceside posuere masa um sicisd natoque penatibus magnised lorem ipsum dolor sit ame onsectea dipe</p>
+            
+            </div>                    
+        </div>
+
+
+        <div class="main_third">
+            
+            <div align="center" class="t6">Easily Customizable & Unlimited Support</div>
+
+            <div align="center" class="t7">Integer orci enim varius vel accumsan vel porttior tellus.Vivamus odio. Donec metus libero semper.</div>
+       
+            <div align="center" class="button1"><span><button>PURCHASE NOW</button></span><span><button>LEARN MORE</button></span></div>
+        </div>
+
+
+        <div align="center" class="t8">
+           What People Are
+        </div>
+        <div align="center" class="t9">
+           Saying About Us
+        </div>
+
+       
+        <div class="main_fourth">
+            <div align="center">
+                <img src="man4.jpg" alt="man1">
+                <div class="t10">John Doe</div>
+                <div class="t11">lorem ipsum dolor sit amet consectetur adipisicing eil sed seiusmod tempor</div>
+            </div>
+            <div align="center">
+                <img src="man2.jpg" alt="man2">
+                <div class="t10">John Doe</div>
+                <div class="t11">lorem ipsum dolor sit amet consectetur adipisicing eil sed seiusmod tempor</div>
+            </div>
+            <div align="center">
+                <img src="man3.jpg" alt="man3">
+                <div class="t10">John Doe</div>
+                <div class="t11">lorem ipsum dolor sit amet consectetur adipisicing eil sed seiusmod tempor</div>
+            </div>
+            <div align="center">
+                <img src="man1.jpg" alt="man4">
+                <div class="t10">John Doe</div>
+                <div class="t11">lorem ipsum dolor sit amet consectetur adipisicing eil sed seiusmod tempor</div>
+            </div>
+
+        </div>
+
+
+        <div class="main_fifth">
+            <div>
+                <div class="t12">Multi</div>
+                <p>In a elit in lorem congue. Sed nec arcu.Etiam sit amet augue.Fusce tum neque
+                     a rutrum varius odio pede ullamcorp-er tellus ut dignissim nisi risus non tortor.
+                   Aliquam mollis neque.  </p>
+
+                   <div class="social_media">
+                        
+                            <img src="f.png">
+                            <img src="t.png">
+                            <img src="l.png">
+                            <img src="p.png">
+                            <img src="g.png">
+
+                       
+                   </div>
+            </div>
+
+            <div>
+                <div class="t12">RECENT POST</div>
+                <button  class="b1">Awesome Design with Overview</button>
+                <button class="b1">Greate Design with Feature</button>
+                <button class="b1">Limitless functions & works</button>
+                <button class="b2">multi is simple & clean design</button>
+            </div>
+
+            <div>
+                <div class="t12">CONTACT INFO</div>
+                <button  class="b1">  <img src="7.png">Office # 38 Suite 54 Elizbeth Street, Victoria State Newyork, USA 33026  </button>
+                <button  class="b1"><img src="8.png">+38 000 129900 </button>
+                <button  class="b2"><img src="9.png">info@domin.net</button>
+                
+            </div>
+
+
+        </div>
+
+        <div class="main_sixth">
+
+            <div class="main_sixth_name">
+                <span>@ 2015 bootstraptaste.All Rights Reserved.</span>
+            </div>
+
+            <div class="main_sixth_nav_bar">
+                <span> Home</span>
+                <span>Services</span>
+                <span>Blog</span>
+                <span>Portfolio</span>
+                <span>Contact</span>
+            </div>
+        </div>
+        
+       
+
+    </body>
+</html>

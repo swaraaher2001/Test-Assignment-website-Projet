@@ -1,0 +1,375 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+.main_nav{
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+   position: fixed;
+   
+    }
+
+    .nav_name{
+        margin-left: 60px;
+        margin-top: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 23px;
+    }
+
+    .nav_name_fl{
+        color:red
+    }
+
+    .nav_bar{
+        display: flex;
+        margin-top:-40px;
+        margin-left: 700px;
+        
+    }
+
+    .nav_bar span{
+        padding: 20px;
+        
+    }
+
+    .nav_bar span:hover{
+        color: red;
+    }
+
+    .slideshow-container{
+        width: 100%;
+        height: auto;
+        padding-top: 60px;
+        
+        
+    }
+
+    .prev{
+    
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select:none ;
+        }
+    
+    
+
+    .next{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        margin-left: 1300px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select:none ;
+    }
+
+    .prev:hover{
+        background-color: transparent;
+    }
+    .next:hover{
+        background-color:transparent;
+    }
+
+    .Main_dot{
+        text-align: center;
+    }
+    .dot{
+        cursor:pointer;
+        height: 10px;
+        width:10px;
+        margin: 0 4px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+
+    }
+
+    .active, .dot:hover{
+        background-color: red;
+
+    }
+    
+
+    @media only screen and(max-width:100px){
+        .prev,.next{
+            font-size: 11px;
+        }
+    }
+
+    .t1{
+        margin-top: 30px;
+    }
+
+    .t2{
+        margin-top: 15px;
+        font-size: large;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+
+    .main_second{
+        display:flex
+    }
+
+    .img1{
+        height: 100px;
+        width: 100px;
+        margin-left: 150px;
+        margin-top: 80px;
+
+    }
+
+    .img2{
+        height: 100px;
+        width: 100px;
+        margin-left: 200px;
+        margin-top: 40px;
+
+    }
+    .img3{
+        height: 100px;
+        width: 100px;
+        margin-left: 200px;
+        margin-top: 40px;
+
+    }
+    .img4{
+        height: 100px;
+        width: 100px;
+        margin-left: 200px;
+        margin-top: 40px;
+
+    }
+
+    
+
+    .main_second div{
+        padding: 20px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .t3{
+        margin-top: 80px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .t4{
+         margin-top: 15px;
+        font-size: small;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .t5{
+      
+       font-size: small;
+       font-family:Arial, Helvetica, sans-serif;
+   }
+
+   .pic1{
+
+    margin-top: 100px;
+   }
+
+   .pic1 .pic11{
+    margin-left: 100px;
+   }
+   
+   .pic1 .pic12{
+    margin-top: -350px;
+    margin-left: 700px;
+   }
+
+   .img5{
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 200px;
+
+}
+
+.img6{
+    height: 80px;
+    width: 80px;
+    margin-left: 380px;
+    margin-top: 200px;
+
+}
+.img7{
+    height: 80px;
+    width: 80px;
+    margin-left: 360px;
+    margin-top: 200px;
+
+}
+
+
+   .main_second_2{
+    display:flex;
+    margin-top: -100px;
+}
+
+.main_second_2 div{
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: -120px;
+    margin-right: 50px;
+}
+
+.main_third{
+    margin-top: 80px;
+    height:250px;
+    background-color: red;
+    color:white;
+   
+}
+
+.t6{
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.t7{
+    padding-top: 20px;
+    color: antiquewhite;
+}
+
+.button1{
+    padding-top: 40px ;
+    
+}
+
+.button1 span button{
+    padding: 5px;
+    font-size: medium;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.t8{
+    padding-top: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+}
+.t9{
+    padding-top: 10px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.main_fourth{
+    margin-top: 70px;
+    display: flex;
+    }
+
+.main_fourth div{
+    padding: 10px;
+}
+
+.main_fourth div img{
+    border-radius: 20px;
+}
+
+.t10{
+    margin-top: 20px;
+    font-size:x-large;
+    font-weight:500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.t11{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium
+    ;
+}
+
+.social_media{
+    margin-left: 20px;
+}
+
+.main_fifth{
+    height: 400px;
+    background-color: rgb(49, 49, 49);
+    color:rgb(178, 176, 176);
+    display: flex;
+    padding: 10px;
+}
+
+.main_fifth div .t12{
+    margin-top: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+    color: rgb(252, 249, 249);
+    font-size: large;
+}
+
+.main_fifth div p{
+    margin-left: 25px;
+}
+
+.main_fifth div .b1{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    width:350px;
+    background-color:transparent ;
+    border-bottom-color: rgb(248, 244, 244);
+    color:rgb(178, 176, 176);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.main_fifth div .b2{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: left;
+    width:400px;
+    background-color:transparent ;
+    border-bottom-color: rgb(248, 244, 244);
+    color:rgb(178, 176, 176);
+    border: none;
+}
+
+.main_sixth{
+    height: 50px;
+    color: rgb(178, 176, 176);
+    background-color: black;
+    
+}
+
+.main_sixth_nav_bar{
+  margin-top: -37px;
+    margin-left: 700px;
+
+}
+
+.main_sixth_name {
+    
+    padding: 20px;
+
+}
+.main_sixth_nav_bar span{
+  padding:20px;
+}
+
+
